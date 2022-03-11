@@ -21,10 +21,10 @@ F01 | Login | Za pristup dnevniku potrebnba je autentikacija korisnika pomoću l
 F02 | Pregled dnevnika | .... | ...
 
 ## Tehnologije i oprema
-Microsoft Visual Studio 2022 /n
-C# (.NET Framework) /n
-Microsoft SQL Server
-GitHub
-GitHub Classroom
-Microsoft Word
-Draw.io
+- Microsoft Visual Studio 2022
+- C# (.NET Framework)
+- Microsoft SQL Server
+- GitHub
+- GitHub Classroom
+- Microsoft Word
+- Draw.io
