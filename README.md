@@ -17,15 +17,15 @@ Programska potpora za rad ljekarne. Ovu aplikaciju bi koristile zaposlene osobe 
 
 Oznaka | Naziv | Kratki opis | Odgovorni član tima
 ------ | ----- | ----------- | -------------------
-F01 |Prijava  | Za pristup aplikaciji potrebno se autentificirati pomoću login funkcionalnosti. Korisnik se logira s podacima koji su mu dodijeljeni od strane nadležne osobe. | Dominik Škaro 
+F01 |Prijava  | Za pristup aplikaciji potrebno se autentificirati pomoću login funkcionalnosti. Korisnik se logira s podacima koji su mu dodijeljeni od strane nadležne osobe. | Eva Oreški
 F02 |Pregled lijekova  | Vidljiv ispis svih lijekova u bazi podataka, njihovo pretraživanje, sortiranje i filtrianje, pregled detaljnijeg opisa svakog lijeka, preporučene količine...  | Eva Oreški
-F03 |Upravljanje lijekovima | Ova funkcionalnost omogućuje kreiranje, čitanje, ažurianje i brisanje lijekova iz baze podataka(CRUD operacije) | Hana Miškić
+F03 |Upravljanje lijekovima | Ova funkcionalnost omogućuje kreiranje, čitanje, ažurianje i brisanje lijekova iz baze podataka(CRUD operacije) | Eva Oreški
 F04 |Inventura| Funkcionalnost koja omogućuje provedbu inventure, podatke o njenom izvršavanju- datum, vrijeme, odgovorne osobe, količine robe...| Hana Miškić
-F05 |Naručivanje  | Aplikacija će imati ugrađenu mogućnost naručivanja potrebne robe koja nedostaje, to jest automatsko izrađivanje naružbenice popunjavanjem odrđenih podataka. | Eva Oreški
-F06 |Zaprimanje | Funkcionalnost koja omogućuje zaprimanje novih lijekova u baze, bit će vidljiv datum i vrijeme. Pomoću nje ćemo uspoređivati količinu zaprimljene robe s količinom na narudžbenici | Eva Oreški
+F05 |Naručivanje  | Aplikacija će imati ugrađenu mogućnost naručivanja potrebne robe koja nedostaje, to jest automatsko izrađivanje naružbenice popunjavanjem odrđenih podataka. | Hana Miškić
+F06 |Zaprimanje | Funkcionalnost koja omogućuje zaprimanje novih lijekova u baze, bit će vidljiv datum i vrijeme. Pomoću nje ćemo uspoređivati količinu zaprimljene robe s količinom na narudžbenici |Hana Miškić
 F07 |Kreiranje računa  |Pomoću ove funkcionalnosti možemo kreirati račun te imamo mogućnost njegova storniranja| Dominik Škaro
 F08 |Upravljanje korisničkim računima |Postavljanje ili brisanje ograničenja na korisničke račune te dodavanje ili brisanje računa zaposlenika.  | Dominik Škaro
-F09 |Izvješća | Izvješća o količini prodanih lijekova te grafički prikaz istog, prikaz mjesečnih izvadaka. Također će postojati mogućnost sortiranja i filtrianja. | Hana Miškić
+F09 |Izvješća | Izvješća o količini prodanih lijekova te grafički prikaz istog, prikaz mjesečnih izvadaka. Također će postojati mogućnost sortiranja i filtrianja. | Dominik Škaro
 
 ## Tehnologije i oprema
 - Microsoft Visual Studio 2022
