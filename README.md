@@ -18,7 +18,7 @@ Programska potpora za rad ljekarne. Ovu aplikaciju bi koristile zaposlene osobe 
 Oznaka | Naziv | Kratki opis | Odgovorni član tima
 ------ | ----- | ----------- | -------------------
 F01 |Prijava  | Za pristup aplikaciji potrebno se autentificirati pomoću login funkcionalnosti. Korisnik se logira s podacima koji su mu dodijeljeni od strane nadležne osobe. | Eva Oreški
-F02 |Pregled lijekova  | Vidljiv ispis svih lijekova u bazi podataka, njihovo pretraživanje, sortiranje i filtrianje, pregled detaljnijeg opisa svakog lijeka, preporučene količine...  | Eva Oreški
+F02 |Pregled lijekova  | Vidljiv ispis svih lijekova u bazi podataka, zalihe za svaki od njih, njihovo pretraživanje, sortiranje i filtrianje, pregled detaljnijeg opisa svakog lijeka, preporučene količine...  | Eva Oreški
 F03 |Upravljanje lijekovima | Ova funkcionalnost omogućuje kreiranje, čitanje, ažurianje i brisanje lijekova iz baze podataka(CRUD operacije) | Eva Oreški
 F04 |Inventura| Funkcionalnost koja omogućuje provedbu inventure, podatke o njenom izvršavanju- datum, vrijeme, odgovorne osobe, količine robe...| Hana Miškić
 F05 |Naručivanje  | Aplikacija će imati ugrađenu mogućnost naručivanja potrebne robe koja nedostaje, to jest automatsko izrađivanje naružbenice popunjavanjem odrđenih podataka. | Hana Miškić
