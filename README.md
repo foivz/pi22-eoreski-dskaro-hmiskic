@@ -23,9 +23,9 @@ F03 |Upravljanje lijekovima | Ova funkcionalnost omogućuje kreiranje, čitanje,
 F04 |Inventura| Funkcionalnost koja omogućuje provedbu inventure, podatke o njenom izvršavanju- datum, vrijeme, odgovorne osobe, količine robe...| Hana Miškić
 F05 |Naručivanje  | Aplikacija će imati ugrađenu mogućnost naručivanja potrebne robe koja nedostaje, to jest automatsko izrađivanje naružbenice popunjavanjem odrđenih podataka. | Hana Miškić
 F06 |Zaprimanje | Funkcionalnost koja omogućuje zaprimanje novih lijekova u baze, bit će vidljiv datum i vrijeme. Pomoću nje ćemo uspoređivati količinu zaprimljene robe s količinom na narudžbenici |Hana Miškić
-F07 |Kreiranje računa  |Pomoću ove funkcionalnosti možemo kreirati račun te imamo mogućnost njegova storniranja| Dominik Škaro
+F07 |Kreiranje računa  |Pomoću ove funkcionalnosti možemo kreirati račun te imamo mogućnost njegova storniranja.| Dominik Škaro
 F08 |Upravljanje korisničkim računima |Postavljanje ili brisanje ograničenja na korisničke račune te dodavanje ili brisanje računa zaposlenika.  | Dominik Škaro
-F09 |Izvješća | Izvješća o količini prodanih lijekova te grafički prikaz istog, prikaz mjesečnih izvadaka. Također će postojati mogućnost sortiranja i filtrianja. | Dominik Škaro
+F09 |Izvješća | Izvješća o količini prodanih lijekova te grafički prikaz istog, prikaz mjesečnih izvadaka. Također će postojati mogućnost sortiranja i filtrianja.Račun će također biti u obliku izvješća i bit će omogućeno generiranje PDF-a. | Dominik Škaro
 
 ## Tehnologije i oprema
 - Microsoft Visual Studio 2022
