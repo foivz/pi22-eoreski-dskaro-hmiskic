@@ -25,7 +25,7 @@ F05 |Naručivanje  | Aplikacija će imati ugrađenu mogućnost naručivanja potr
 F06 |Zaprimanje | Funkcionalnost koja omogućuje zaprimanje novih lijekova u baze, bit će vidljiv datum i vrijeme. Pomoću nje ćemo uspoređivati količinu zaprimljene robe s količinom na narudžbenici |Hana Miškić
 F07 |Kreiranje računa  |Pomoću ove funkcionalnosti možemo kreirati račun te imamo mogućnost njegova storniranja.| Dominik Škaro
 F08 |Upravljanje korisničkim računima zaposlenika | Dodavanje korisničkih računa zaposlenika/ mijenjanje statusa zaposlenika(trenutni zaposlenik/bivši zaposlenik)  | Dominik Škaro
-F09 |Izvješća | Izvješća o količini prodanih lijekova te grafički prikaz istog, prikaz mjesečnih izvadaka. Također će postojati mogućnost sortiranja i filtrianja.Račun će također biti u obliku izvješća i bit će omogućeno generiranje PDF-a. | Dominik Škaro
+F09 |Izvješća | Izvješća o količini prodanih lijekova te grafički prikaz istog.Račun će također biti u obliku izvješća i bit će omogućeno generiranje PDF-a. | Dominik Škaro
 
 ## Tehnologije i oprema
 - Microsoft Visual Studio 2022
