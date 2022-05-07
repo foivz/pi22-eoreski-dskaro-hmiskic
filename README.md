@@ -34,4 +34,5 @@ F09 |Izvješća | Izvješća o količini prodanih lijekova te grafički prikaz i
 - GitHub
 - GitHub Classroom
 - Microsoft Word
-- Draw.io
+- Visual Paradigm
+- Figma
