@@ -17,15 +17,15 @@ Programska potpora za rad ljekarne. Ovu aplikaciju bi koristile zaposlene osobe 
 
 Oznaka | Naziv | Kratki opis | Odgovorni član tima
 ------ | ----- | ----------- | -------------------
-F01 |Prijava  | Za pristup aplikaciji potrebno se autentificirati pomoću login funkcionalnosti. Korisnik se logira s podacima koji su mu dodijeljeni od strane nadležne osobe. | Eva Oreški
-F02 |Pregled lijekova  | Vidljiv ispis svih lijekova u bazi podataka, zalihe za svaki od njih, njihovo pretraživanje, sortiranje i filtrianje, pregled detaljnijeg opisa svakog lijeka, preporučene količine...  | Eva Oreški
+F01 |Prijava  | Za pristup aplikaciji potrebno se autentificirati pomoću login funkcionalnosti. Korisnik se logira s podacima(korisničko ime i lozinka) koji su mu dodijeljeni od strane nadležne osobe. | Eva Oreški
+F02 |Pregled lijekova  | Vidljiv ispis svih lijekova u bazi podataka, zalihe za svaki od njih, njihovo pretraživanje, sortiranje i filtriranje, pregled detaljnijeg opisa svakog lijeka... | Eva Oreški
 F03 |Upravljanje lijekovima | Ova funkcionalnost omogućuje kreiranje, čitanje, ažurianje i brisanje lijekova iz baze podataka(CRUD operacije) | Eva Oreški
-F04 |Inventura| Funkcionalnost koja omogućuje provedbu inventure, podatke o njenom izvršavanju- datum, vrijeme, odgovorne osobe, količine robe...| Hana Miškić
-F05 |Naručivanje  | Aplikacija će imati ugrađenu mogućnost naručivanja potrebne robe koja nedostaje, to jest automatsko izrađivanje naružbenice popunjavanjem odrđenih podataka. | Hana Miškić
-F06 |Zaprimanje | Funkcionalnost koja omogućuje zaprimanje novih lijekova u baze, bit će vidljiv datum i vrijeme. Pomoću nje ćemo uspoređivati količinu zaprimljene robe s količinom na narudžbenici |Hana Miškić
-F07 |Kreiranje računa  |Pomoću ove funkcionalnosti možemo kreirati račun te imamo mogućnost njegova storniranja.| Dominik Škaro
-F08 |Upravljanje korisničkim računima zaposlenika | Dodavanje korisničkih računa zaposlenika/ ažuriranje podataka o zaposleniku.  | Dominik Škaro
-F09 |Izvješća | Izvješća o količini prodanih lijekova te grafički prikaz istog.Račun će također biti u obliku izvješća i bit će omogućeno generiranje PDF-a. | Dominik Škaro
+F04 |Inventura| Funkcionalnost koja omogućuje provedbu inventure, podatke o njenom izvršavanju- datum, vrijeme, odgovorna osoba, količina lijekova...| Hana Miškić
+F05 |Narudžba lijekova  | Aplikacija će imati ugrađenu mogućnost naručivanja potrebnih lijekova koji nedostaju, to jest izrađivanje naružbenice popunjavanjem određenih podataka. | Hana Miškić
+F06 |Zaprimanje  | Funkcionalnost zadužena za zaprimanje novih lijekova u bazu podataka, tj. novih zaliha lijekova. Pregled primki i kreiranje novih primki. |Hana Miškić
+F07 |Kreiranje računa  |Pomoću ove funkcionalnosti možemo kreirati račun tako da dodajemo lijekove te određujemo količinu. Na kraju se izračunava ukupan iznos.| Dominik Škaro
+F08 |Upravljanje zaposlenicima | Dodavanje novih zaposlenika/ ažuriranje podataka o zaposleniku.  | Dominik Škaro
+F09 |Izvješća | Izvješća o zaradi i prodanim lijekovima, statistika o stanju na zalihi. Račun će također biti u obliku izvješća i bit će omogućeno generiranje PDF-a. | Dominik Škaro
 
 ## Tehnologije i oprema
 - Microsoft Visual Studio 2022
