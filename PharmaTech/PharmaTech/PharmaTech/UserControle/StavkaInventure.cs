@@ -25,17 +25,17 @@ namespace PharmaTech.UserControle
 
         private void StavkaInventure_Load(object sender, EventArgs e)
         {
-            DohvatiArtikle();
-            uxKolicinaUSustavu.ReadOnly = true;
+            DohvatiLijekove();
+            uxKolicinaNaZalihi.ReadOnly = true;
             uxRazlika.ReadOnly = true;
-            uxStanjeNaSkladistu.ReadOnly = true;
+            uxStvarnaKolicina.ReadOnly = true;
 
         }
        
 
 
         //dohvaćanje naziva artikala i spremanje u combobox
-        private void DohvatiArtikle()
+        private void DohvatiLijekove()
         {
             foreach (var item in Lijekovi.OrderBy(x => x.naziv_lijek))
             {

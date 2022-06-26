@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PharmaTech.Forme;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace PharmaTech
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PregledInventura());
+            Application.Run(new PrijavaForm());
         }
     }
 }

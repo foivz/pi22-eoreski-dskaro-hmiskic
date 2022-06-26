@@ -32,10 +32,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.uxIzbrisi = new System.Windows.Forms.Button();
+            this.uxBrisanje = new System.Windows.Forms.Button();
             this.uxRazlika = new System.Windows.Forms.TextBox();
-            this.uxStanjeNaSkladistu = new System.Windows.Forms.TextBox();
-            this.uxKolicinaUSustavu = new System.Windows.Forms.TextBox();
+            this.uxStvarnaKolicina = new System.Windows.Forms.TextBox();
+            this.uxKolicinaNaZalihi = new System.Windows.Forms.TextBox();
             this.uxNaziv = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
@@ -57,9 +57,9 @@
             this.label3.Location = new System.Drawing.Point(353, 26);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(141, 20);
+            this.label3.Size = new System.Drawing.Size(127, 20);
             this.label3.TabIndex = 23;
-            this.label3.Text = "Stanje u skladištu";
+            this.label3.Text = "Stvarna količina";
             // 
             // label2
             // 
@@ -68,9 +68,9 @@
             this.label2.Location = new System.Drawing.Point(193, 26);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(145, 20);
+            this.label2.Size = new System.Drawing.Size(135, 20);
             this.label2.TabIndex = 24;
-            this.label2.Text = "Količina u sustavu";
+            this.label2.Text = "Količina na zalihi";
             // 
             // label1
             // 
@@ -79,21 +79,21 @@
             this.label1.Location = new System.Drawing.Point(24, 26);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 20);
+            this.label1.Size = new System.Drawing.Size(94, 20);
             this.label1.TabIndex = 21;
-            this.label1.Text = "Naziv artikla";
+            this.label1.Text = "Naziv lijeka";
             // 
-            // uxIzbrisi
+            // uxBrisanje
             // 
-            this.uxIzbrisi.BackColor = System.Drawing.Color.Red;
-            this.uxIzbrisi.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxIzbrisi.Location = new System.Drawing.Point(697, 45);
-            this.uxIzbrisi.Margin = new System.Windows.Forms.Padding(4);
-            this.uxIzbrisi.Name = "uxIzbrisi";
-            this.uxIzbrisi.Size = new System.Drawing.Size(39, 28);
-            this.uxIzbrisi.TabIndex = 20;
-            this.uxIzbrisi.Text = "X";
-            this.uxIzbrisi.UseVisualStyleBackColor = false;
+            this.uxBrisanje.BackColor = System.Drawing.Color.Red;
+            this.uxBrisanje.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxBrisanje.Location = new System.Drawing.Point(697, 45);
+            this.uxBrisanje.Margin = new System.Windows.Forms.Padding(4);
+            this.uxBrisanje.Name = "uxBrisanje";
+            this.uxBrisanje.Size = new System.Drawing.Size(39, 28);
+            this.uxBrisanje.TabIndex = 20;
+            this.uxBrisanje.Text = "X";
+            this.uxBrisanje.UseVisualStyleBackColor = false;
             // 
             // uxRazlika
             // 
@@ -106,24 +106,24 @@
             this.uxRazlika.TabIndex = 19;
             this.uxRazlika.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // uxStanjeNaSkladistu
+            // uxStvarnaKolicina
             // 
-            this.uxStanjeNaSkladistu.Location = new System.Drawing.Point(357, 49);
-            this.uxStanjeNaSkladistu.Margin = new System.Windows.Forms.Padding(4);
-            this.uxStanjeNaSkladistu.Name = "uxStanjeNaSkladistu";
-            this.uxStanjeNaSkladistu.Size = new System.Drawing.Size(151, 22);
-            this.uxStanjeNaSkladistu.TabIndex = 18;
-            this.uxStanjeNaSkladistu.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.uxStvarnaKolicina.Location = new System.Drawing.Point(357, 49);
+            this.uxStvarnaKolicina.Margin = new System.Windows.Forms.Padding(4);
+            this.uxStvarnaKolicina.Name = "uxStvarnaKolicina";
+            this.uxStvarnaKolicina.Size = new System.Drawing.Size(151, 22);
+            this.uxStvarnaKolicina.TabIndex = 18;
+            this.uxStvarnaKolicina.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // uxKolicinaUSustavu
+            // uxKolicinaNaZalihi
             // 
-            this.uxKolicinaUSustavu.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.uxKolicinaUSustavu.Location = new System.Drawing.Point(197, 49);
-            this.uxKolicinaUSustavu.Margin = new System.Windows.Forms.Padding(4);
-            this.uxKolicinaUSustavu.Name = "uxKolicinaUSustavu";
-            this.uxKolicinaUSustavu.Size = new System.Drawing.Size(144, 22);
-            this.uxKolicinaUSustavu.TabIndex = 17;
-            this.uxKolicinaUSustavu.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.uxKolicinaNaZalihi.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.uxKolicinaNaZalihi.Location = new System.Drawing.Point(197, 49);
+            this.uxKolicinaNaZalihi.Margin = new System.Windows.Forms.Padding(4);
+            this.uxKolicinaNaZalihi.Name = "uxKolicinaNaZalihi";
+            this.uxKolicinaNaZalihi.Size = new System.Drawing.Size(144, 22);
+            this.uxKolicinaNaZalihi.TabIndex = 17;
+            this.uxKolicinaNaZalihi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // uxNaziv
             // 
@@ -142,10 +142,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.uxIzbrisi);
+            this.Controls.Add(this.uxBrisanje);
             this.Controls.Add(this.uxRazlika);
-            this.Controls.Add(this.uxStanjeNaSkladistu);
-            this.Controls.Add(this.uxKolicinaUSustavu);
+            this.Controls.Add(this.uxStvarnaKolicina);
+            this.Controls.Add(this.uxKolicinaNaZalihi);
             this.Controls.Add(this.uxNaziv);
             this.Name = "StavkaInventure";
             this.Size = new System.Drawing.Size(778, 107);
@@ -161,10 +161,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button uxIzbrisi;
+        private System.Windows.Forms.Button uxBrisanje;
         private System.Windows.Forms.TextBox uxRazlika;
-        private System.Windows.Forms.TextBox uxStanjeNaSkladistu;
-        private System.Windows.Forms.TextBox uxKolicinaUSustavu;
+        private System.Windows.Forms.TextBox uxStvarnaKolicina;
+        private System.Windows.Forms.TextBox uxKolicinaNaZalihi;
         private System.Windows.Forms.ComboBox uxNaziv;
     }
 }
