@@ -59,7 +59,7 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -68,11 +68,30 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -109,6 +128,12 @@
     <Compile Include="Forme\AzurirajLijekForm.Designer.cs">
       <DependentUpon>AzurirajLijekForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forme\AzurirajZaposlenika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\AzurirajZaposlenika.Designer.cs">
+      <DependentUpon>AzurirajZaposlenika.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forme\DetaljiLijekaForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,17 +146,35 @@
     <Compile Include="Forme\DodajLijekForm.Designer.cs">
       <DependentUpon>DodajLijekForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forme\DodajZaposlenika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\DodajZaposlenika.Designer.cs">
+      <DependentUpon>DodajZaposlenika.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forme\GlavnaForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forme\GlavnaForm.Designer.cs">
       <DependentUpon>GlavnaForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forme\Izvjesca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\Izvjesca.Designer.cs">
+      <DependentUpon>Izvjesca.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forme\KreirajNarudzbenicucs.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forme\KreirajNarudzbenicucs.Designer.cs">
       <DependentUpon>KreirajNarudzbenicucs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\KreirajRacun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\KreirajRacun.Designer.cs">
+      <DependentUpon>KreirajRacun.cs</DependentUpon>
     </Compile>
     <Compile Include="Forme\PregledLijekovaForm.cs">
       <SubType>Form</SubType>
@@ -151,11 +194,23 @@
     <Compile Include="Forme\PregledPrimki.Designer.cs">
       <DependentUpon>PregledPrimki.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forme\PregledZaposlenika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\PregledZaposlenika.Designer.cs">
+      <DependentUpon>PregledZaposlenika.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forme\PrijavaForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forme\PrijavaForm.Designer.cs">
       <DependentUpon>PrijavaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forme\RacunIzvjestajForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forme\RacunIzvjestajForm.Designer.cs">
+      <DependentUpon>RacunIzvjestajForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forme\ZaprimanjeLijekova.cs">
       <SubType>Form</SubType>
@@ -192,6 +247,7 @@
     <Compile Include="skladisna_primka.cs">
       <DependentUpon>BazaPodataka.tt</DependentUpon>
     </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="status.cs">
       <DependentUpon>BazaPodataka.tt</DependentUpon>
     </Compile>
@@ -231,11 +287,20 @@
     <Compile Include="UserControle\StavkaPrimke.Designer.cs">
       <DependentUpon>StavkaPrimke.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControle\StavkaRacuna.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControle\StavkaRacuna.Designer.cs">
+      <DependentUpon>StavkaRacuna.cs</DependentUpon>
+    </Compile>
     <Compile Include="zaposlenik.cs">
       <DependentUpon>BazaPodataka.tt</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Forme\AzurirajLijekForm.resx">
       <DependentUpon>AzurirajLijekForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\AzurirajZaposlenika.resx">
+      <DependentUpon>AzurirajZaposlenika.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forme\DetaljiLijekaForm.resx">
       <DependentUpon>DetaljiLijekaForm.cs</DependentUpon>
@@ -243,14 +308,23 @@
     <EmbeddedResource Include="Forme\DodajLijekForm.resx">
       <DependentUpon>DodajLijekForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forme\DodajZaposlenika.resx">
+      <DependentUpon>DodajZaposlenika.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forme\GlavnaForm.resx">
       <DependentUpon>GlavnaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\Izvjesca.resx">
+      <DependentUpon>Izvjesca.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forme\KreirajInventurniList.resx">
       <DependentUpon>KreirajInventurniList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forme\KreirajNarudzbenicucs.resx">
       <DependentUpon>KreirajNarudzbenicucs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\KreirajRacun.resx">
+      <DependentUpon>KreirajRacun.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forme\PregledInventura.resx">
       <DependentUpon>PregledInventura.cs</DependentUpon>
@@ -264,8 +338,14 @@
     <EmbeddedResource Include="Forme\PregledPrimki.resx">
       <DependentUpon>PregledPrimki.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forme\PregledZaposlenika.resx">
+      <DependentUpon>PregledZaposlenika.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forme\PrijavaForm.resx">
       <DependentUpon>PrijavaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forme\RacunIzvjestajForm.resx">
+      <DependentUpon>RacunIzvjestajForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forme\ZaprimanjeLijekova.resx">
       <DependentUpon>ZaprimanjeLijekova.cs</DependentUpon>
@@ -280,6 +360,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="rptRacun.rdlc" />
     <EmbeddedResource Include="UserControle\StavkaInventure.resx">
       <DependentUpon>StavkaInventure.cs</DependentUpon>
     </EmbeddedResource>
@@ -288,6 +369,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControle\StavkaPrimke.resx">
       <DependentUpon>StavkaPrimke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControle\StavkaRacuna.resx">
+      <DependentUpon>StavkaRacuna.cs</DependentUpon>
     </EmbeddedResource>
     <EntityDeploy Include="BazaPodataka.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
@@ -298,6 +382,9 @@
     </None>
     <None Include="packages.config" />
     <None Include="PharmaTech_TemporaryKey.pfx" />
+    <None Include="Properties\DataSources\lijek.datasource" />
+    <None Include="Properties\DataSources\racun.datasource" />
+    <None Include="Properties\DataSources\stavka_racuna.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -327,6 +414,19 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>BazaPodataka.edmx</DependentUpon>
       <LastGenOutput>BazaPodataka.cs</LastGenOutput>
+    </Content>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>

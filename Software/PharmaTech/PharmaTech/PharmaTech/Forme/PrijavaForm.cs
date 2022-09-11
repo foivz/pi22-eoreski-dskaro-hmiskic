@@ -12,6 +12,7 @@ namespace PharmaTech.Forme
 {
     public partial class PrijavaForm : Form
     {
+        public string strVar = string.Empty;
         public PrijavaForm()
         {
             InitializeComponent();
@@ -26,18 +27,19 @@ namespace PharmaTech.Forme
         {
             var korime = txtKorime.Text;
             var lozinka = txtLozinka.Text;
+            strVar = txtKorime.Text;
 
             Autentifikator.ValidirajPrijavu(korime, lozinka);
             if (Autentifikator.uspjeh)
             {
                 this.Hide();
-                GlavnaForm glavnaForm = new GlavnaForm();
+                GlavnaForm glavnaForm = new GlavnaForm(this);
                 glavnaForm.ShowDialog();
-                
+
             }
             else
             {
-                MessageBox.Show("Unijeli ste neispravne podatke!");
+                MessageBox.Show("Uneseni podaci su neispravni ili je račun neaktivan!");
             }
         }
     }

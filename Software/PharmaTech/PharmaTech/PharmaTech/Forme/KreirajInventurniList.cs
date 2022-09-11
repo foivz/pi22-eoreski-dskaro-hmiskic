@@ -62,7 +62,6 @@ namespace PharmaTech.Forme
         private void button2_Click(object sender, EventArgs e)
         {
 
-
             DialogResult dialog = MessageBox.Show("Želite li spremiti stavke?", "Spremanje", MessageBoxButtons.YesNo);
 
             if (dialog == DialogResult.Yes)
@@ -85,7 +84,6 @@ namespace PharmaTech.Forme
 
                 foreach (StavkaInventure item in uxStavke.Controls)
                 {
-
                     brojac++;
                     if (brojac == 1)
                     {
@@ -147,7 +145,7 @@ namespace PharmaTech.Forme
                         MessageBox.Show("Niste dodali ni jedan lijek!");
                     }
                 
-                                           }
+            }
             else if (dialog == DialogResult.No)
             {
                 var uc = uxStavke.Controls.OfType<StavkaInventure>().ToList();
